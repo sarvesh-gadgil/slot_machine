@@ -1,1 +1,3 @@
-# slot_machine
+# Slot Machine using Python
+
+This project comprised of slot machine created using the object oriented concepts in Python. The game started with a minimum bet and randomly displayed 3 emotes from a predefined set. It the combination was complete then the winning amount was doubled. If the combination was partially complete, the winning amount was increased to half of the bet. If there was no combination then the bet was removed from winning amount. The game ended when the winning amount was less than two. Bet validation were also added in this project.
