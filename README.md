@@ -7,7 +7,7 @@ Description:
 1. This program has 3 classes: Purse, Column and Slot
 2. The Slot class inherits all methods and variables from Purse and Column class 
 
-# Purse Class
+## Purse Class
 This class has a constructor with variable balance of float data type which initially set to 10.00. This value will be changed according to the score.
 
 This class has three methods:
@@ -17,7 +17,7 @@ This class has three methods:
 3. debit() - This method is used to debit the user balance after losing.
 
 
-# Column Class
+## Column Class
 
 1. In this class I have imported the emoji package inorder to use emoticons of apple, pear and tangerine.
 2. I have used "from random import choice" as it imports choice from random to my program and I can use choice method directly instead of random.choice
@@ -26,7 +26,7 @@ This class has three methods:
 5. This class has change_face() method. It is used to shuffle values in the list by using choice method
 
 
-# Slot Class
+## Slot Class
 1. This class is derived from the Purse class and Column class.
 2. The constructor is used to accesss constructor of Purse class and Column class. In this constructor I have created 3 variables slot1, slot 2, slot3. In this variables we pass the parameters of emoji(red_apple, pear and tangerine) to the emojize method used in Column class which appends values to the list faces in Column class.
 
@@ -37,5 +37,5 @@ This class has 4 methods:
 4. score_slot() - In this method it checks if all the faces are same then the bet is credited to user balance by invoking credit function from Purse class, else if two faces are same it credits half value to the user balance by invoking credit function from Purse class else it debits the bet from the user balance by invoking debit function from Purse class. This method also prints the score and the user balance which is obtained by invoking get_balance from Purse class.
 
 
-# run_slot_machine()
+## run_slot_machine()
 This function is used to execute the program of slot machine. I have created an instance variable "spin" of Slot class. The take_bet() of Slot Class is called with the help of instance variable spin
